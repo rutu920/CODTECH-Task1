@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#project">Project</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="overlay">
+            <h1>Welcome to My Portfolio</h1>
+            <p>I am Rutuja Hajare CSE Student,student of PVPIT College Budhgaon,Sangali.</p>
+            
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a third year undergraduate student of the Department of Computer Science and Engineering,Padmabhooshan Vasantraodada Patil Institute Of Technology Budhgaon,Sangali, India. I was born Daund,Pune.I was fortunate enough to know from a young age that I wanted to be an engineer. The engineering way of thinking came naturally to me. What I didn't know was what type of engineer I wanted to be. When push came to shove, I chose Software Engineering.  I like watching movies, Competitive Programming and loads of other stuff. My hobby is gardening. The joy of witnessing blooming flowers and leaves fill my heart with a sense of achievement and realizing the fact that the work of my own hands is bearing fruit, definitely gives me pleasure. I love music. I am an ardent listener of songs, ranging from Classical, Sufi to Hindi, English.  To capture feelings I experienced or I couldn't express.  </p>
+        </div>
+    </section>
+
+<section id="project">
+    <h2 class="section-title">My Projects</h2>
+    <div class="projects-container">
+        <div class="project-card">
+            <img src="./asset/rushop 1.png" alt="Project 1" class="project-image">
+            <h3 class="project-title">Project 1</h3>
+            <p class="project-description">This is my 1st webiste using HTML,CSS</p>
+        </div>
+        <div class="project-card">
+            <img src="./asset/doc dystem.png" alt="Project 2" class="project-image">
+            <h3 class="Hospital Management System">Project 2</h3>
+            <p class="project-description">These systems leverage technology to enhance the overall efficiency, accuracy, and accessibility of healthcare information.
+             </p>
+        </div>
+        <div class="project-card">
+            <img src="./asset/preplacmnt portal.png" alt="Project 3" class="project-image">
+            <h3 class="Pre-Placemeny Portal">Project 3</h3>
+            <p class="project-description">Training and Placement Cell is a webpage developed in the windows platform for the training and placement department of the college in order to provide the details of its students in a database for the companies to their process of recruitment provided with a proper login.</p>
+        </div>
+        <div class="project-card">
+            <img src="./asset/amazon clone.png" alt="Project 4" class="project-image">
+            <h3 class="amazon Clone">Project 4</h3>
+            <p class="project-description">This is a clone of popular e-commmerce website Amazon.</p>
+        </div>
+    </div>
+</section>
+</body>
+</html>
+
+
+<section id="skill">
+    <div class="skills-container">
+        <section id="skills" class="skills-section">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-container">
+                <div class="skill-card">
+                    <h3 class="skill-title">Web Development</h3>
+                    <p class="skill-description">HTML, CSS, JavaScript, React, Angular</p>
+                </div>
+                <div class="skill-card">
+                    <h3 class="skill-title">Programming Languages</h3>
+                    <p class="skill-description">Java</p>
+                </div>
+                <div class="skill-card">
+                    <h3 class="skill-title">Design</h3>
+                    <p class="skill-description"> Figma</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Address:Kanishka Sankul Badlapur Tal-Ambernath Dist-Thane</p>
+        <p>Email:rutujah0019@gmail.com</p>
+        <p>Phone:8624995709</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 rutu. All rights reserved.</p>
+    </footer>
+</body>
+</html>
